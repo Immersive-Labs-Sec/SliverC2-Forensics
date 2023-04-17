@@ -312,8 +312,8 @@ if __name__ == '__main__':
         required=False)
 
     parser.add_argument(
-        '--encoder',
-        help='Encoding Mode',
+        '--transport',
+        help='Transport Mode',
         choices=['dns', 'http'],
         required=True
     )
@@ -364,7 +364,7 @@ if __name__ == '__main__':
     else:
         possible_keys = [unhexlify(args.key)]
 
-    if args.encoder == 'dns':
+    if args.transport == 'dns':
         # Special Handling for DNS
         decode_dns(possible_keys, file_data)
     else:
