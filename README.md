@@ -1,6 +1,7 @@
 # SliverC2-Forensics
 A collection of tools and detections for the Sliver C2 Framework
 
+Technical writeup - https://www.immersivelabs.com/blog/detecting-and-decrypting-sliver-c2-a-threat-hunters-guide/
 
 ## Rules
 
